@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/544.3ffaef35.chunk.js","mappings":"2JAKA,UALa,kBACX,0BACE,iDAFS,C","sources":["pages/Home/Home.jsx"],"sourcesContent":["const Home = () => (\n  <div>\n    <h1>My Phonebook ♥</h1>\n  </div>\n);\nexport default Home;\n"],"names":[],"sourceRoot":""}
