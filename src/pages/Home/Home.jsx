@@ -1,6 +1,7 @@
+import css from './Home.module.css';
 const Home = () => (
   <div>
-    <h1>My Phonebook ♥</h1>
+    <h1 className={css.title}>My Phonebook ♥</h1>
   </div>
 );
 export default Home;

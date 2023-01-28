@@ -24,8 +24,8 @@ const ContactList = () => {
   return (
     <ul className={Style.contactsList}>
       {contactsFiltred &&
-        contactsFiltred.map(({ id, name, phone }) => {
-          return <ContactItem id={id} key={id} name={name} phone={phone} />;
+        contactsFiltred.map(({ id, name, number }) => {
+          return <ContactItem id={id} key={id} name={name} number={number} />;
         })}
     </ul>
   );
